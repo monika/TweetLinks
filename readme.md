@@ -1,6 +1,6 @@
 # jquery.tweetLinks
 
-Create HTML links for Twitter hashtags, usernames, and URLs from the text of a tweet. It requires the jQuery library.
+Easily create HTML links for Twitter hashtags, usernames, and URLs from the text of a tweet. It requires the jQuery library.
 
 ## Usage
 
@@ -8,6 +8,7 @@ Select the element that contains the tweet text and run the `.tweetLinks()` meth
 
 ```html
 <p class="tweet">Getting ready for another day at #hogwarts. I hope @ronweasley did his homework. twitpic.com/b2y3un</p>
+
 <script>
     $('.tweet').tweetLinks();
 </script>
