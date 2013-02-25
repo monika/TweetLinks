@@ -32,4 +32,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Thanks
 
-Thanks to [Tim Kempf](https://github.com/Fauntleroy) for helping me write my first plugin and listening to my never-ending stream of questions.
+Thanks to [Tim Kempf](https://github.com/Fauntleroy) for helping me write my first plugin and answering my never-ending stream of questions.
