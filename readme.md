@@ -1,20 +1,23 @@
-# jquery.tweets
+# jquery.tweetLinks
 
-This is a jQuery plugin that will set up links for Twitter hashtags, usernames, and URLs within the text of a tweet. It requires the jQuery library.
+Create HTML links for Twitter hashtags, usernames, and URLs from the text of a tweet. It requires the jQuery library.
 
 ## Usage
 
-Select the element that contains the tweet text and run the `tweet` method on it:
+Select the element that contains the tweet text and run the `.tweetLinks()` method on it:
 
-    <p class="tweet">Getting ready for another day at #hogwarts. I hope @ronweasley did his homework. twitpic.com/b2y3un</p>
-
-    <script>
-        $('.tweet').tweet();
-    </script>
+```html
+<p class="tweet">Getting ready for another day at #hogwarts. I hope @ronweasley did his homework. twitpic.com/b2y3un</p>
+<script>
+    $('.tweet').tweetLinks();
+</script>
+````
 
 The text of the tweet will be converted to:
 
-    <p class="tweet">Getting ready for another day at <a href="https://twitter.com/search?q=&23hogwarts" title="Twitter / Search - #hogwarts">#hogwarts</a>. I hope <a href="http://twitter.com/ronweasley" title="@ronweasley on Twitter">@ronweasley</a> did his homework. <a href="http://twitpic.com/b2y3un">twitpic.com/b2y3un</a></p>
+```html
+<p class="tweet">Getting ready for another day at <a href="https://twitter.com/search?q=&23hogwarts" title="Twitter / Search - #hogwarts">#hogwarts</a>. I hope <a href="http://twitter.com/ronweasley" title="@ronweasley on Twitter">@ronweasley</a> did his homework. <a href="http://twitpic.com/b2y3un">twitpic.com/b2y3un</a></p>
+```
 
 ## Copyright & License
 

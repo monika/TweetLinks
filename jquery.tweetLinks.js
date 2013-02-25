@@ -1,6 +1,6 @@
 (function( $ ){
 
-    $.fn.tweet = function( parameters ) {
+    $.fn.tweetLinks = function( parameters ) {
 
         parameters = parameters || {};
 
