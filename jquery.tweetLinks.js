@@ -1,8 +1,6 @@
 (function( $ ){
 
-    $.fn.tweetLinks = function( parameters ) {
-
-        parameters = parameters || {};
+    $.fn.tweetLinks = function() {
 
         return this.each(function() {
 
